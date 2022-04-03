@@ -1,0 +1,91 @@
+SET PATH= <YOUR JAVA DIRECTORY>\jdk-17.0.2\bin;%PATH%
+                                
+PUSHD <YOUR CODE FOLDER>
+
+(1) 
+java FirstJava.java
+
+(2)
+java   VariableOperatorComment.java
+
+(3) 
+java   Conditionals.java
+
+(4) 
+java   ForLoop1.java
+
+
+(5) 
+java   WhileLoop1.java
+
+ 
+(6)
+java   StarPyramids.java 6
+java   FizzBuzz.java 20
+
+(7) 
+java   Array1.java 
+java   TwoDArray1.java
+
+(8)
+java   Recursion1.java
+
+
+(9)
+java   ClassReuse.java
+
+
+
+(10)
+java   OOPData.java
+
+(11) 
+java  OOPMethods.java
+
+ 
+(12)
+java  Inherit1.java
+
+(13)
+java   Polymorphism1.java
+
+ 
+(14)
+java   BasicExceptions1.java
+
+(15)  
+java   ErrorCompileOrRuntime.java
+
+///////////////////////////////////////////////////////////////////////
+
+
+(16)  
+java   InsertionSortClient1.java
+
+(17)  
+
+java   InsertionSortKarateKid.java
+java   InsertionSortKarateKid2.java
+
+
+(18)
+
+java   SelectionSort1.java
+java   SelectionSortLargestFirst.java
+
+(19.1)
+java  MergeSortBaeldung2.java
+java MergeSortBaeldung2LargestFirst.java
+
+(19.3)
+java MergeSortGeeks.java
+
+(19.4)
+
+java MergeSortPrinceton.java
+java MergeSortPrincetonLargestFirst.java
+
+(19.5) SIMILAR TO Baeldung
+java MergeSortWikibooks.java
+
+ 
