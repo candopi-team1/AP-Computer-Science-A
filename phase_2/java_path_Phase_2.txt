@@ -1,0 +1,53 @@
+SET PATH= <YOUR JAVA DIRECTORY>\jdk-17.0.2\bin;%PATH%
+                                
+PUSHD <YOUR CODE FOLDER>
+
+(1) 
+java   StringObject.java
+
+java   MathObject.java
+java   WrapperClasses.java
+
+
+(2)
+java   TruthTable1.java
+java   DeMorgan2.java
+
+
+java   ShortCircuitEvaluations.java
+
+(3)
+java   ArrayList1.java
+
+(4)
+java   SequentialSearch1.java
+java   BinarySearch1.java 11
+java   BinarySearchReverse1.java
+
+(5)
+java   LoopAlgorithms.java
+
+(6)
+java   TwoDArray2.java
+
+(7)
+java   TwoDArraySumAndLargest.java
+java   TwoDArrayConnectFour.java
+
+(8)
+java   BinarySearchRecursive.java
+
+(9)
+java Array2dByRow.java
+
+java Array2dByColumn.java
+
+java   Array2dDiagonals.java
+
+(10)
+java   OperatorPrecedence1.java
+
+(11)
+java   ReferencePassingMadeSafe.java
+
+java   PrimitivevsReference.java
