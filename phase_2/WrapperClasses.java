@@ -54,22 +54,25 @@ class WrapperClasses
 
     // autobox
      Integer i1 = 2; // in newer versions of Java (9+)   
-     System.out.print(i1 + "  " ); System.out.println(i1 instanceof Integer);    
+     System.out.print(i1 + "  " ); System.out.println(i1 instanceof Integer);   // 2 true 
      Integer i2 = new Integer(2);
 
      System.out.println(i1 == i2); // false
      System.out.println(i1 == 2); // true
+     System.out.println(i2 == 2); // true
+     System.out.println("--***-----------------------------------------------------------------------");
+
 
 
      Double da = 2022.34; // in newer versions of Java (9+)   
-     System.out.print(da+ "  ");    System.out.println(da instanceof Double);    
+     System.out.print(da+ "  ");    System.out.println(da instanceof Double);    //2022.34  true
 
 
      //unbox
      int int1      = i1;     // unboxing the object automatically - back to primitive type
      double double1= 2 * da; // unboxing the object automatically - back to primitive type
 
-     System.out.print(int1 +" ");      System.out.println(double1);
+     System.out.print(int1 +" ");      System.out.println(double1); // 2 4044.68
      System.out.println("-------------------------------------------------------------------------");
 
      ArrayList<Integer> alInteger = new ArrayList<Integer>();
@@ -86,7 +89,7 @@ class WrapperClasses
         System.out.print(kyy + " "); 
      }
      System.out.println();
-     System.out.println("-------------------------------------------------------------------------");
+     System.out.println("-------***********--------------------------------------------------------");
 
 
      double dagger= 2022.11;
