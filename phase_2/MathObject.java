@@ -53,9 +53,9 @@ class StringMathObject
     System.out.println(r1 + 2);   
 
    System.out.print("Between 0 and 9  ---> ");
-   int x= 9 -1; 
-   for (int k=0; k < 6; k++){
-     int r2= (int) (Math.random() * x ) ;
+   int x= (9 -0) + 1; 
+   for (int k=0; k < 26; k++){
+     int r2= (int) (Math.random() * x ) + 0 ;
 
      System.out.print(r2 + "  ");
    }
