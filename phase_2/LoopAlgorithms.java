@@ -5,7 +5,7 @@ class LoopAlgorithms
   public static void main(String args[]) 
   {        
         
-   // Mc Graw Hill 2002, page 139
+   // Mc Graw Hill 2022, page 139
    // Find all the factors of an integer.
     int n = 100;
     n = Math.abs (n);
@@ -20,7 +20,7 @@ class LoopAlgorithms
 
 
 
-   // Mc Graw Hill 2002, page 140
+   // Mc Graw Hill 2022, page 140
    // Find sum of all digits in an integer.
     int n2 = 109;
     int n22 = Math.abs (n2);
@@ -38,7 +38,9 @@ class LoopAlgorithms
 
    // smallest in a list of numbers
    int[] arr1={34,4,5,6,77,-1,-9,190};
-   int smallest=0;
+   int[] arr15={34,4,5,6,77,1,9,190};
+
+   int smallest=arr1[0];
    for(int j=0; j < arr1.length; j++)
    {
      if ( arr1[j] < smallest) smallest =arr1[j];
@@ -47,9 +49,9 @@ class LoopAlgorithms
    System.out.println("----------------------------------------------------- ");  
 
 
-   // Mc Graw Hill 2002, page 141
+   // Mc Graw Hill 2022, page 141
    // Count the number of words in a string.
-   String phrase = "AP Computer Science A Rocks!";
+   String phrase = "   AP Computer Science A Rocks!     ";
    int numWords = 1; // initialize the count to 1
    int posSpace = phrase.indexOf(" "); // find the first space
 
@@ -60,14 +62,15 @@ class LoopAlgorithms
          posSpace = phrase.indexOf(" "); // find the next space
     }     
 
+    System.out.println("As you can see, this is unreliable, unreliable and very unreliable.") ;
     System.out.println("The number of words is " + numWords) ;
     System.out.println("----------------------------------------------------- ");  
 
 
-   // Mc Graw Hill 2002, page 141
+   // Mc Graw Hill 2022, page 141
    // Count the number of punctuation marks in a sentence.
-   String sentence = "A. P B. Computer Science, Rocks !";
-   String punctuation = ".,:;2?1"; // or whatever punctuation marks you want to search for
+   String sentence = "A. P B. Computer Science, Rocks ! I have 2 PhDs and 1 wife! Bio-chemists are fakes. etc etc...";
+   String punctuation = ".,:;?!-"; // or whatever punctuation marks you want to search for
    int count = 0;
    String letter; 
 
@@ -82,7 +85,17 @@ class LoopAlgorithms
 
 
 
-   // Mc Graw Hill 2002, page 141
+   // Mc Graw Hill 2022, page 141
+   String s1="ABCDE";
+   int lenn=s1.length();
+   System.out.println(s1.substring(lenn-1, lenn)  ); // E
+   // System.out.println(s1.substring(lenn-1, lenn+2)  ); // StringIndexOutOfBoundsException:
+   System.out.println(s1.substring(0, 2)  ); // AB, excluded 2
+   System.out.println(s1.substring(0, 5)  ); // ABCDE, excluded 5
+   // System.out.println(s1.substring(0, 15)  ); // StringIndexOutOfBoundsException:
+
+
+
    // Reverse order of characters in a string
    String sentence2 = "How are you? All be peace on this world! Computer Science, Cool!";
    String reverse="", letter2;
@@ -92,7 +105,7 @@ class LoopAlgorithms
      reverse +=letter2;
 
    }
-    System.out.println("The sentence2 =" + sentence2 + ", the reverse =" + reverse);
+    System.out.println("The sentence2 =" + sentence2 + "\nThe reverse  = " + reverse);
 
   }// main()
 
